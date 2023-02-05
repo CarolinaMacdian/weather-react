@@ -1,124 +1,127 @@
+/** @format */
+
 .App {
-    font-family: sans-serif;
-    text-align: center;
-    margin: 20px auto;
-    border-radius: 5px;
-    padding: 20px;
-    max-width: 600px;
-    background-color: #c493cf;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #c493cf;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(
-        134.6deg,
-        rgba(158, 150, 252, 0.85) -1%,
-        rgb(211, 133, 176) 16.9%,
-        rgb(249, 116, 146) 43.7%,
-        rgb(255, 158, 136) 66.9%,
-        rgb(254, 228, 172) 94.8%
-    );
-    background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(
+    134.6deg,
+    rgba(158, 150, 252, 0.85) -1%,
+    rgb(211, 133, 176) 16.9%,
+    rgb(249, 116, 146) 43.7%,
+    rgb(255, 158, 136) 66.9%,
+    rgb(254, 228, 172) 94.8%
+  );
+  background-repeat: no-repeat;
 }
 
 .city {
-    list-style: none;
-    margin: 0 0 10px;
-    padding: 0;
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
 }
 
 .city li {
-    font-size: 16px;
-    font-weight: 400;
-    height: 19px;
-    line-height: 1;
-    list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
 }
 
 .button {
-    padding: 10px 20px;
-    font-size: 12px;
-    background-color: #ffb192;
-    border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  background-color: #ffb192;
+  border: none;
 }
 
 .location {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
 }
 
 .location h1 {
-    color: #fee4ac;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 50px;
-    margin: 0;
+  color: #fee4ac;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0;
 }
 
 .location p {
-    color: #ffcbcb;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 20px;
-    padding: 0;
-    margin: 0;
+  color: #ffcbcb;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .temperature {
-    color: #ffcbcb;
-    font-weight: 500;
-    font-size: 80px;
-    line-height: 2;
+  color: #ffcbcb;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 2;
 }
 
 .grau {
-    font-size: 50px;
-    vertical-align: text-bottom;
-    color: #ffcbcb;
+  font-size: 50px;
+  vertical-align: text-bottom;
+  color: #ffcbcb;
 }
 
 .units {
-    position: relative;
-    top: 70px;
-    font-size: 10px;
-    margin: 10px;
-    top: -34px;
-    color: #ffcbcb;
+  position: relative;
+  top: 70px;
+  font-size: 10px;
+  margin: 10px;
+  top: -34px;
+  color: #ffcbcb;
 }
 
 .units a {
-    text-decoration: none;
-    color: #ffcbcb;
-    font-size: 10px;
-    font-weight: 600;
+  text-decoration: none;
+  color: #ffcbcb;
+  font-size: 10px;
+  font-weight: 600;
 }
 
 .bar {
-    font-size: 15px;
-    vertical-align: middle;
-    font-weight: 600;
+  font-size: 15px;
+  vertical-align: middle;
+  font-weight: 600;
 }
 
 .discription {
-    margin: 0;
-    padding: 0;
-    color: #ffcbcb;
+  margin: 0;
+  padding: 0;
+  color: #ffcbcb;
 }
 
 .extraInfo {
-    text-align: left;
-    margin-top: 40px;
-    color: #ffb5b5;
+  text-align: left;
+  margin-top: 40px;
+  color: #ffb5b5;
 }
 
 .link {
-    color: #132743;
+  color: #132743;
 }
 
 .source {
-    text-align: center;
-    width: fit-content;
-    font-size: 10px;
-    font-weight: 500;
+  text-align: center;
+  width: fit-content;
+  align-content: center;
+  font-size: 10px;
+  font-weight: 500;
 }
